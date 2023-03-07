@@ -2,9 +2,7 @@ import { useAtom } from 'jotai';
 import { configAtom } from '../../stores/global.store';
 import { itemInputAtom } from './store';
 
-
-
-export const useStateLayer = () => {
+export const useLayer = () => {
   const items = [
     {
       key: 1,

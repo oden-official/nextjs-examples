@@ -1,5 +1,5 @@
 import { Provider } from "jotai";
-import { useStateLayer } from "./use-state-layer";
+import { useLayer } from "./use-layer";
 import styles from './styles.module.scss';
 import Item from "src/modules/jotai/components/item";
 
@@ -8,7 +8,7 @@ const Jotai1Module: React.FunctionComponent = () => {
     items,
     email,
     username,
-  } = useStateLayer();
+  } = useLayer();
   return <main className={styles.main}>
     <header>jotai1 {email} {username}</header>
     <div>

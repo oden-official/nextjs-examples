@@ -2,7 +2,7 @@ import { useInputTextWithErr } from "src/hooks/use-input-text-with-err";
 import { emailErrHandler, pwErrHandler } from './functions';
 import { useInputPwWithErr } from "src/hooks/use-input-pw-with-err";
 
-export const useStateLayer = () => {
+export const useLayer = () => {
   const [email, onChangeEmail, emailErr] = useInputTextWithErr('', emailErrHandler);
   const [[pw, onChangePw], [pwConfirm, onChangePwConfirm], pwErr] = useInputPwWithErr(['', ''], pwErrHandler);
 

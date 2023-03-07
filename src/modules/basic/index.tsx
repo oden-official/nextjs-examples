@@ -1,6 +1,6 @@
 import InputTextTopLabeled from '../../components/atom/input-text-top-labeled';
 import styles from './styles.module.scss';
-import { useStateLayer } from './use-state-layer';
+import { useLayer } from './use-layer';
 
 const BasicModule: React.FunctionComponent = () => {
   const {
@@ -14,7 +14,7 @@ const BasicModule: React.FunctionComponent = () => {
     onChangeEmail,
     onChangePw,
     onChangePwConfirm,
-  } = useStateLayer();
+  } = useLayer();
 
   return <div className={styles.main}>
     <div role={'test'}>test</div>
