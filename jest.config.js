@@ -9,7 +9,7 @@ const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleDirectories: ['node_modules', '<rootDir>/'],
   testEnvironment: 'jest-environment-jsdom',
-  verbose: false,
+  verbose: true,
   testMatch: ["**/__tests__/**/?(*.)+(e2e-spec).[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)" ],
   rootDir: "."
 }
