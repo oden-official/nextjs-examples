@@ -1,0 +1,1 @@
+export type CharSet = "upper" | "lower" | "number" | "special";

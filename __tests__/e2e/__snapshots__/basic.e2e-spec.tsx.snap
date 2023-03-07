@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasicModule snapshot 1`] = `
+<div>
+  <div
+    class="main"
+  >
+    <div
+      role="test"
+    >
+      test
+    </div>
+    <div
+      class="box input"
+    >
+      <label
+        class="label"
+        for="email"
+      >
+        이메일
+      </label>
+      <input
+        class="input"
+        id="email"
+        role="email"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      role="emailErr"
+    />
+    <div
+      class="box input"
+    >
+      <label
+        class="label"
+        for="pw"
+      >
+        비밀번호
+      </label>
+      <input
+        class="input"
+        id="pw"
+        role="pw"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="box input"
+    >
+      <label
+        class="label"
+        for="pwConfirm"
+      >
+        비밀번호 확인
+      </label>
+      <input
+        class="input"
+        id="pwConfirm"
+        role="pwConfirm"
+        type="text"
+        value=""
+      />
+    </div>
+    <div />
+    <div>
+      disabled
+    </div>
+  </div>
+</div>
+`;
